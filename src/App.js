@@ -1,11 +1,11 @@
-import React from 'react'; //not sure I need this will try it out
-import TodoForm from './components/TodoForm.js';
 import './App.css';
+import TodoList from './components/TodoList.js';
+
 
 function App() {
   return (
     <div className="todo-app">
-      <TodoForm />
+      <TodoList />
     </div>
   );
 }
